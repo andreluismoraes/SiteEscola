@@ -1,9 +1,22 @@
+/*Tamanho e Estilo de Fonte*/
 html{
 	font-size: 20px;
 	font-family: Helvetica, Arial, Sans-Serif;
 }
 
+/* configuração navegação topo*/
 .navegacaoTopo a span:hover{
 	border-bottom: 2px solid red;
 }
 
+/*configuração carrossel*/
+.carousel-inner .carousel-item .carousel-caption a{
+	text-decoration: none;
+	color: black;
+}
+
+/*Tamanho da pagina*/
+html, body #home {
+	height: 100%;
+	overflow-x: hidden;
+}
