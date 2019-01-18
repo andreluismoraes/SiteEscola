@@ -145,5 +145,15 @@ body #escola{
 	border: 1px solid #ef5350;
 }
 
+/* configuração serviços*/
+.diretoriaServicos h1{
+	border-bottom: 2px solid #ef5350;
+	padding: 10px 0px 10px 0px;
+	margin-left: 10px;
+}
 
-/*Fim configuração secretaria*/
+#processoseletivo p small a{
+	text-decoration: none;
+}
+/*fim configuração pagina diretoria servicos*/
+
