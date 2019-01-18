@@ -2,13 +2,16 @@
 .navegacaoTopo a span:hover{
 	border-bottom: 2px solid red;
 }
+/*fim configuração navegação topo*/
 
 /*configuração carrossel*/
 .carousel-inner .carousel-item .carousel-caption a{
 	text-decoration: none;
 	color: black;
 }
+/*fim configuração carrossel*/
 
+/*configuração do corpo do site*/
 html, body, #home {
 	margin: 0;
   	padding: 0;
@@ -19,6 +22,8 @@ html, body, #home {
 html, body{
 	font-family: Helvetica,Arial,sans-serif;
 }
+
+/*fim de configuração do corpo do site*/
 
 /* Rodapé
 -----------------------------*/
@@ -51,4 +56,14 @@ footer .container a {
 
 footer .container a:hover {
 	color: #64b5f6;
+}
+/*fim do rodapé*/
+
+/*congiruação pagina contato*/
+#contato hr{
+	border: 1px solid #b71c1c; 
+}
+
+#contato h1,p{
+	padding: 5px 0px 5px 0px;
 }
